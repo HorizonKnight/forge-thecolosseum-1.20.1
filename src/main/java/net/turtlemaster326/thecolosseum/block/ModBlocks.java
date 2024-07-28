@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.turtlemaster326.thecolosseum.TheColosseum;
+import net.turtlemaster326.thecolosseum.block.custom.OpalPlinth;
 import net.turtlemaster326.thecolosseum.item.ModItems;
 
 import java.util.function.Supplier;
@@ -36,6 +37,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_OPAL_BLOCK = registerBlock("raw_opal_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
 
+    public static final RegistryObject<Block> OPAL_PLINTH = registerBlock("opal_plinth",
+            () -> new OpalPlinth(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
 
 
 
