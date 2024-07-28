@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RAW_OPAL_BLOCK.get());
                         pOutput.accept(ModBlocks.OPAL_BLOCK.get());
                         pOutput.accept(ModBlocks.OPAL_ORE.get());
+                        pOutput.accept(ModBlocks.END_OPAL_ORE.get());
 
 
                     })

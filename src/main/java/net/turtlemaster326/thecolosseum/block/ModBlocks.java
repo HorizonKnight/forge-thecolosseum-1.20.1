@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.IEventBusEngine;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,9 +29,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> OPAL_ORE = registerBlock("opal_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
+
+    public static final RegistryObject<Block> END_OPAL_ORE = registerBlock("end_opal_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
     public static final RegistryObject<Block> RAW_OPAL_BLOCK = registerBlock("raw_opal_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-
 
 
 

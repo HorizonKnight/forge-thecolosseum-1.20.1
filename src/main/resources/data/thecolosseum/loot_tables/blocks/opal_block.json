@@ -1,0 +1,21 @@
+{
+  "type": "monecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+        "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thecolosseum:opal_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thecolosseum:blocks/opal_block"
+}
