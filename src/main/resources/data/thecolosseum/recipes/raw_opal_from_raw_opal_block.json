@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catgory": "misc",
+  "ingredients": [
+    {
+      "item": "thecolosseum:raw_opal_block"
+    }
+  ],
+  "result": {
+    "item": "thecolosseum:black_opal",
+    "count": 4
+  }
+}

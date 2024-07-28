@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "thecolosseum:black_opal"
+    }
+  },
+  "result": {
+    "item": "thecolosseum:raw_opal_block"
+  }
+}
