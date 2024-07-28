@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.turtlemaster326.thecolosseum.block.ModBlocks;
+import net.turtlemaster326.thecolosseum.item.ModCreativeModeTabs;
 import net.turtlemaster326.thecolosseum.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,8 +28,10 @@ public class TheColosseum {
     public TheColosseum() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -42,7 +46,7 @@ public class TheColosseum {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BLACKOPAL);
+
 
         }
     }

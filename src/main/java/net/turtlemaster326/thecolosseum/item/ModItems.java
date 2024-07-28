@@ -11,10 +11,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheColosseum.MOD_ID);
 
-    public static final RegistryObject<Item> BLACKOPAL = ITEMS.register("black_opal",
+
+    public static final RegistryObject<Item> BLACK_OPAL = ITEMS.register("black_opal",
             () -> new Item(new Item.Properties()));
 
-
+    public static final RegistryObject<Item> PURE_OPAL = ITEMS.register("pure_opal",
+            () -> new Item(new Item.Properties()));
 
 
 
