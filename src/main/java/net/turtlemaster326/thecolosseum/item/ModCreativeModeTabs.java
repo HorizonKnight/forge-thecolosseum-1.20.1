@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.turtlemaster326.thecolosseum.TheColosseum;
+import net.turtlemaster326.thecolosseum.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -21,7 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, pOutput) -> {
                         pOutput.accept(ModItems.BLACK_OPAL.get());
                         pOutput.accept(ModItems.PURE_OPAL.get());
-
+                        pOutput.accept(ModBlocks.RAW_OPAL_BLOCK.get());
+                        pOutput.accept(ModBlocks.OPAL_BLOCK.get());
+                        pOutput.accept(ModBlocks.OPAL_ORE.get());
 
 
                     })

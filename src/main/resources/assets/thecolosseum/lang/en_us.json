@@ -1,11 +1,14 @@
 {
+  //Items-------
   "item.thecolosseum.black_opal": "Black Opal",
   "item.thecolosseum.pure_opal": "Pure Opal",
 
 
 
-
-
+//Blocks-----
+  "block.thecolosseum.opal_block": "Block of Opal",
+  "block.thecolosseum.raw_opal_block": "Block of Impure Opal",
+  "block.thecolosseum.opal_ore": "Opal Ore",
 
 
 
