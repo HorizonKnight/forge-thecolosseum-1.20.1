@@ -1,6 +1,6 @@
 {
   "variants": {
-    "filled=false": { "model": "thecolosseum:block/opal_plinth_0" },
-    "filled=true": { "model": "thecolosseum:block/opal_plinth_1" }
+    "empty=true": { "model": "thecolosseum:block/opal_plinth_0" },
+    "empty=false": { "model": "thecolosseum:block/opal_plinth_1" }
   }
 }
